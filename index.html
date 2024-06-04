@@ -165,22 +165,6 @@
         </div>
     </body>
 
- </div>
-    <div class="overlay" id="overlay">
-      <button class="button-sytems" onclick="SolarMusic();" id="toggleButton">Xem Hệ Mặt Trời</button>
-    </div>
-    <audio src="//files.catbox.moe/ac1ekl.mp3"></audio>
-    <script>
-      function SolarMusic() {
-        const audio = document.querySelector("audio");
-        audio.volume = 1;
-        audio.currentTime = 0;
-        audio.play();
-      }
-      const audio = document.querySelector("audio");
-      audio.addEventListener('ended', () => {
-        SolarMusic();
-      });
 
     
     <!-- partial -->
